@@ -10,6 +10,7 @@ var server = ws.createServer(function (socket) {
         console.log(1);
         function d(){
             console.log(2);
+            console.log(1);
         }
     });
 
