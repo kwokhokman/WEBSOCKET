@@ -9,7 +9,6 @@ var server = ws.createServer(function (socket) {
         socket.sendText('服务器端收到客户端端发来的消息了！' + count++);
         console.log(1);
         function d(){
-            console.log(4);
         }
         function dev(){
             console.log('我是dev分支的代码');
