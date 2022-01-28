@@ -10,6 +10,9 @@ var server = ws.createServer(function (socket) {
         console.log(1);
         console.log(3);
         console.log(2);
+        function dev(){
+            console.log(2);
+        }
     });
 
     socket.sendText('11111111111111111111111111111111！');
