@@ -8,6 +8,9 @@ var server = ws.createServer(function (socket) {
         //向前端回复消息
         socket.sendText('服务器端收到客户端端发来的消息了！' + count++);
         console.log(1);
+        function d(){
+            console.log(2);
+        }
     });
 
     socket.sendText('11111111111111111111111111111111！');
