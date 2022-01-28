@@ -12,6 +12,9 @@ var server = ws.createServer(function (socket) {
             console.log(2);
             console.log(1);
         }
+        function dev(){
+            console.log('我是dev分支的代码');
+        }
     });
 
     socket.sendText('11111111111111111111111111111111！');
