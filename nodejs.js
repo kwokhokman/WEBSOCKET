@@ -9,6 +9,10 @@ var server = ws.createServer(function (socket) {
         socket.sendText('服务器端收到客户端端发来的消息了！' + count++);
         console.log(1);
         console.log(3);
+        function d(){
+            console.log(111);
+        }
+        d()
         console.log(2);
         console.log(4);
     });
